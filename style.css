@@ -48,23 +48,37 @@ a:hover {
     left: 700px;
     top: 70px;
 }
-.location>img{
-
-    width: 280px;
+.location>h3{
+    padding-left: 20px;
+    font-size: 23px;
+}
+.location>p{
+    padding-left: 10px;
+}
+.location{
+    color: white;
+    line-height: 30px;
+    width: 270px;
     height: 280px;
+    position: relative;
+    border-radius: 40px;
+}
+.location:hover{
+    bottom: 8px;
 }
 .details{
     width: 40%;
     height: 500px;
     position: absolute;
     left: 100px;
-    top: 200px;
+    top: 250px;
 }
 .details h1{
     color: white;
     font-size: 100px;
     height: 60px;
     width: 200px;
+    margin-left: 5%;
 }
 .details h3{
     border-radius: 20px;
@@ -73,4 +87,10 @@ a:hover {
     background-color: white;
     text-align: center;
     padding-top: 10px;
+    margin-left: 15%;
+}
+.details p{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
 }
